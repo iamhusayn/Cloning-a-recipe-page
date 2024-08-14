@@ -1,0 +1,70 @@
+
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Box-Model - This is a concept that indicates that elements have paddings, margins and borders
+h1{
+    border: 3px solid black;
+}
+p{
+    border: 10px solid chocolate;
+} */
+
+/* body{
+    font-family: "Bad Script";
+    background-color: antiquewhite;
+} */
+
+body{
+    font-family: "Combo";
+    background-color: #0B3948;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.box{
+    background-color: #eee;
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    /* font-size: 2em; */
+    /* height: fit-content; */
+    /* margin: auto auto; */
+    margin: 350px auto;
+    
+
+    /* forms of writing margins
+    form 1
+    margin: 350px 300px 350px 350px;
+
+    form 2
+    margin-top: 350px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 350px;
+
+    form 3
+    margin: 350px;
+
+    form 4
+    margin: 350px 200px */
+}
+/* ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: black; */
+ /* border: 5px dotted black;
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: flex-end;
+} */ 
