@@ -22,8 +22,9 @@ p{
 
 body{
     font-family: "Combo";
-    background-color: #0b394842;
+    background-color: hsl(30, 54%, 90%);
     height: 100vh;
+
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -71,8 +72,9 @@ body{
     /* justify-content: center;
     align-items: flex-end;
 } */ 
+
 .imgctn{
-    width: 540px;
+    width: 560px;
     border-radius: 20px;
 }
 .imgctn img{
@@ -86,3 +88,28 @@ body{
     font-weight: 800px;
     margin: 20px 0 20px;
 }
+.description{
+    font-size: 15px;
+}
+.preptime{
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.preptime p{
+    color: brown;
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.specialchar{
+    color: #444;
+    font-weight: 700;
+}
+.preptime ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
