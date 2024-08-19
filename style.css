@@ -85,12 +85,12 @@ body {
 
 .description {
     color: #000;
-    font-size: 32px;
     font-weight: 800px;
     margin: 20px 0 20px;
 }
 
-.description {
+.description p{
+    margin-top: 8px;
     font-size: 14px;
 }
 
@@ -98,22 +98,19 @@ body {
     background-color: #fff5fa;
     border-radius: 10px;
     font-size: 15px;
-    margin: 25px 20px;
+    margin: 2px 18px;
     padding: 10px 30px;
-    /* padding-left: 50px; */
 }
-
-.preptime p {
+.preptime p{
     color: brown;
     font-weight: 800;
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-.specialchar {
-    color: #444;
+li.specialchar {
+    color: rgb(0, 0, 0);
     font-weight: 700;
-    /* padding-left: 40px; */
 }
 
 .preptime ul {
@@ -124,47 +121,61 @@ body {
     gap: 5px;
 }
 
-.li {
-    text-align: right;
-}
 
 .ingredients {
     padding: 4px 8px;
-    margin: 16px 12px;
+    margin: 15px 12px;
     font-size: 16px;
 }
 
-ul.taste{
-    margin: 5px 15px;
-    padding: 10px 8px;
-    list-style-type: disc;
-    list-style: circle;
+ul {
+    margin: 12px 16px;
 }
 
-.instructions{
+.taste {
+    padding: 10px;
+}
+
+
+
+.instructions {
     padding: 4px 8px;
     margin: 15px 12px;
-
+    border-bottom: 10px #000;
 }
 
-ol{
-    margin: 12px 26px;
-    padding: 0px 28px;
+ol {
+    margin: 12px 16px;
 }
 
-.nutrients{
+.bold {
+    padding: 10px;
+}
+
+.nutrients {
     padding: 4px 8px;
     margin: 15px 12px;
 }
 
-h3{
-   color: brown;
+strong {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: brown;
+}
+
+
+li::marker {
+    color: brown;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    color: #000;
 }
 .nutritionalvalue2{
-    /* padding: 4px 8px; */
-    /* margin: 15px 12px; */
-}
-
-li::marker{
-    color: rgb(117, 63, 41);
+    padding: 5px;
+    margin: 10px;
 }
