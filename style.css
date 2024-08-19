@@ -19,7 +19,7 @@ p{
 } */
 
 body {
-    font-family: "Combo";
+    font-family: "Combo" sans-serif;
     background-color: hsl(30, 54%, 90%);
     height: 100vh;
 
@@ -89,28 +89,24 @@ body {
     margin: 20px 0 20px;
 }
 
-.description p{
+.description p {
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .preptime {
     background-color: #fff5fa;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 16px;
     margin: 2px 18px;
     padding: 10px 30px;
 }
-.preptime p{
+
+.preptime p {
     color: brown;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 20px;
-}
-
-li.specialchar {
-    color: rgb(0, 0, 0);
-    font-weight: 700;
 }
 
 .preptime ul {
@@ -118,7 +114,7 @@ li.specialchar {
     margin: 15px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
 }
 
 
@@ -126,9 +122,12 @@ li.specialchar {
     padding: 4px 8px;
     margin: 15px 12px;
     font-size: 16px;
+    border: 20px;
+    border-color: rgba(8, 8, 8, 0.144);
+    border-width: 2px;
+    border-bottom-style: solid;
 }
-
-ul {
+.ingredients ul {
     margin: 12px 16px;
 }
 
@@ -137,14 +136,15 @@ ul {
 }
 
 
-
-.instructions {
+.instructions{
     padding: 4px 8px;
     margin: 15px 12px;
-    border-bottom: 10px #000;
+    border-color: rgba(8, 8, 8, 0.144);
+    border-width: 2px;
+    border-bottom-style: solid;
 }
 
-ol {
+.instructions ol {
     margin: 12px 16px;
 }
 
@@ -155,27 +155,45 @@ ol {
 .nutrients {
     padding: 4px 8px;
     margin: 15px 12px;
+    border-color: rgba(8, 8, 8, 0.144);
+    border-width: 2px;
+    border-bottom-style: solid;
 }
-
-strong {
-    color: rgb(0, 0, 0);
+.nutrients p{
+    margin: 16px 28px;
 }
 
 h3 {
     color: brown;
 }
 
-
-li::marker {
+li ::marker {
     color: brown;
 }
 
-hr {
-    height: 2px;
-    width: 100%;
-    color: #000;
+.nutritionalvalue2 {
+    width: 450px;
+    margin: 20px 50px;
+    border-color: #ffffff;
+    /* border: 0px 0px 5px; */
 }
-.nutritionalvalue2{
-    padding: 5px;
-    margin: 10px;
+
+.table1{
+    border-color: rgba(255, 255, 255, 0.144);
+    border-width: .2px;
+}
+
+.table2{
+    border-color: rgba(255, 255, 255, 0.144);
+    border-width: .2px;
+}
+
+.table3{
+    border-color: rgba(255, 255, 255, 0.144);
+    border-width: .2px;
+}
+
+.table4{
+    border-color: rgba(255, 255, 255, 0.144);
+    border-width: .2px;
 }
