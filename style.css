@@ -171,13 +171,12 @@ li ::marker {
     color: brown;
 }
 
-.nutritionalvalue2 {
+/* .nutritionalvalue2 {
     width: 450px;
     margin: 20px 50px;
     border-color: #ffffff;
-    /* border: 0px 0px 5px; */
-}
-
+} */
+/* 
 .table1{
     border-color: rgba(255, 255, 255, 0.144);
     border-width: .2px;
@@ -196,4 +195,40 @@ li ::marker {
 .table4{
     border-color: rgba(255, 255, 255, 0.144);
     border-width: .2px;
+} */
+
+/* .nuts {
+    padding: 10px 100px;
+    margin: 15px 12px;
+    border-color: rgba(8, 8, 8, 0.144);
+    border-width: 2px;
+    border-bottom-style: solid;
+}
+
+.nuts {
+    padding: 10px 100px;
+    margin: 15px 12px;
+    border-color: rgba(8, 8, 8, 0.144);
+    border-width: 2px;
+    border-bottom-style: solid;
+} */
+
+.nutritionalvalue1 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#line1 {
+    margin: 20px 2px;
+    flex-direction: row;
+    position: relative;
+}
+
+#line2 {
+    margin: 20px 2px;
+    flex-direction: column;
+    position: relative;
 }
