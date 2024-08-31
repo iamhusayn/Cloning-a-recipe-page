@@ -1,76 +1,26 @@
-/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Box-Model - This is a concept that indicates that elements have paddings, margins and borders
-h1{
-    border: 3px solid black;
-}
-p{
-    border: 10px solid chocolate;
-} */
-
-/* body{
-    font-family: "Bad Script";
-    background-color: antiquewhite;
-} */
-
 body {
     font-family: "Combo" sans-serif;
     background-color: hsl(30, 54%, 90%);
-    height: 100vh;
-
-    /* display: flex;
+    height: 100;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .box {
     background-color: #fff;
     width: 600px;
-    /* height: 350px; */
     border-radius: 20px;
-    /* font-size: 2em; */
     height: fit-content;
-    /* margin: auto auto; */
-    margin: 100px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 100px;
     padding: 50px 20px;
-
-    /* forms of writing margins
-    form 1
-    margin: 350px 300px 350px 350px;
-
-    form 2
-    margin-top: 350px;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-bottom: 350px;
-
-    form 3
-    margin: 350px;
-
-    form 4
-    margin: 350px 200px */
 }
-
-/* ul{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    /* border-width: 5px;
-    border-style: dotted;
-    border-color: black; */
-/* border: 5px dotted black;
-    /* flex-direction: row; */
-/* justify-content: center;
-    align-items: flex-end;
-} */
 
 .imgctn {
     width: 560px;
@@ -78,15 +28,27 @@ body {
 }
 
 .imgctn img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
 .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #000;
+    width: 100%;
+    font-weight: 600px;
+    margin: 30px 0px 30px;
+}
+
+.description h2 {
     font-weight: 800px;
-    margin: 20px 0 20px;
+    font-size: 30px;
 }
 
 .description p {
@@ -94,8 +56,9 @@ body {
     font-size: 16px;
 }
 
+
 .preptime {
-    background-color: #fff5fa;
+    background-color: #ffdaec;
     border-radius: 10px;
     font-size: 16px;
     margin: 2px 18px;
@@ -105,7 +68,7 @@ body {
 .preptime p {
     color: brown;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -121,7 +84,7 @@ body {
 .ingredients {
     padding: 4px 8px;
     margin: 15px 12px;
-    font-size: 16px;
+    font-size: 20px;
     border: 20px;
     border-color: rgba(8, 8, 8, 0.144);
     border-width: 2px;
@@ -144,6 +107,10 @@ body {
     border-bottom-style: solid;
 }
 
+.instructions h3 {
+    font-size: 25px;
+}
+
 .instructions ol {
     margin: 12px 16px;
 }
@@ -155,7 +122,7 @@ body {
 .nutrients {
     padding: 4px 8px;
     margin: 15px 12px;
-    border-color: rgba(8, 8, 8, 0.144);
+    border-color: rgba(133, 129, 129, 0.266);
     border-width: 2px;
     border-bottom-style: solid;
 }
@@ -171,64 +138,29 @@ li ::marker {
     color: brown;
 }
 
-/* .nutritionalvalue2 {
-    width: 450px;
-    margin: 20px 50px;
-    border-color: #ffffff;
-} */
-/* 
-.table1{
-    border-color: rgba(255, 255, 255, 0.144);
-    border-width: .2px;
-}
-
-.table2{
-    border-color: rgba(255, 255, 255, 0.144);
-    border-width: .2px;
-}
-
-.table3{
-    border-color: rgba(255, 255, 255, 0.144);
-    border-width: .2px;
-}
-
-.table4{
-    border-color: rgba(255, 255, 255, 0.144);
-    border-width: .2px;
-} */
-
-/* .nuts {
-    padding: 10px 100px;
-    margin: 15px 12px;
-    border-color: rgba(8, 8, 8, 0.144);
-    border-width: 2px;
-    border-bottom-style: solid;
-}
-
-.nuts {
-    padding: 10px 100px;
-    margin: 15px 12px;
-    border-color: rgba(8, 8, 8, 0.144);
-    border-width: 2px;
-    border-bottom-style: solid;
-} */
-
 .nutritionalvalue1 {
+    /* border: 2px solid black; */
     display: flex;
-    justify-items: center;
-    align-items: center;
-    position: relative;
-}
-
-
-#line1 {
-    margin: 20px 2px;
     flex-direction: row;
-    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
-#line2 {
-    margin: 20px 2px;
+.nuts, .values {
+     /* border: 2px solid rgb(194, 111, 22); */
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     gap: 15px;
+}
+
+.classes, .weight {
+    display: flex;
     flex-direction: column;
-    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgb(198, 198, 198);
+    padding: 5px 100px;
+    width: 100%;
 }
