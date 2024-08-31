@@ -92,6 +92,7 @@ body {
 }
 .ingredients ul {
     margin: 12px 16px;
+    font-size: 16px;
 }
 
 .taste {
